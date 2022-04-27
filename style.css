@@ -98,6 +98,7 @@ button:hover{
 .Image--content{
     background-color: black;
     display: flex;
+    flex: 1;
 }
 .Par{
 margin: 2%;
@@ -107,9 +108,11 @@ margin: 2%;
 }
 .cover{
 background-color: black;
-    width: 1871px;
-    height:  834px;   ;
+    max-width: 100%;
+    height:  100vh; 
     opacity: 0.5;
+    display: flex;
+    flex: 1;
 
 }
 .read{
@@ -150,10 +153,12 @@ h2{
     margin-left: 15%;
 }
 .img_res1{
-     width: 1861px;
+    max-width: 100%;
      height: 600px;
      margin-bottom: 0%;
     opacity: 0.4;
+    display: flex;
+    flex: 1;
 }
 .fi{
     font-family: 'Readex Pro', sans-serif;
@@ -177,6 +182,7 @@ h2{
     padding: 15px;
     margin-top: 10%;
     margin-right: 15%;
+    overflow: hidden;
 }
 .creator__image{
     width: 300px;
@@ -198,10 +204,11 @@ h2{
 }
 .backgroundcap{
     background-color: black;
-    width: 1861px;
-    height: 900px;
+    max-width: auto;
+    height: 100vh;
     opacity: 0.5;
     display: flex;
+    flex: 1;
 }
 #creator__image{
     background-color: #464646cc;
