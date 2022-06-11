@@ -7,9 +7,13 @@ This Website Won 1st Place on ICT Fest 2022
 
 # PS4 Specs
 CPU: 8 Core x86-64 AMD "Jaguar"
+
 GPU: AMD Next-Gen Radeon Based Graphics Engine
+
 RAM: 8GB
+
 Storage that runs Manjaro: 80Gb Fujitsu running on USB2.0
+
 OS: Manjaro Linux (with SteamDeck UI)
 
 # Website Sample
