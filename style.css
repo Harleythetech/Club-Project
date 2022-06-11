@@ -1,16 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+
 @media only screen and (max-width: 620px) {
     /* For mobile phones: */
-    .shite, .nav_bar, .brand, .Titlep, .photo, .test, .trol, .Par, .author, .test {
-      width: 100%;
+    .shite,
+    .nav_bar,
+    .brand,
+    .Titlep,
+    .photo,
+    .test,
+    .trol,
+    .Par,
+    .author,
+    .test {
+        width: 100%;
     }
-  }
-#test{
+}
+
+#test {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Readex Pro', sans-serif;
@@ -21,7 +33,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#author{
+
+#author {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Readex Pro', sans-serif;
@@ -32,19 +45,25 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.shite, li, a, button{
+
+.shite,
+li,
+a,
+button {
     font-family: 'Readex Pro', sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: white;
     text-decoration: none;
 }
-header{
+
+header {
     background-color: #272727cc;
     position: sticky;
     top: 1;
@@ -54,26 +73,33 @@ header{
     padding: 10px 2%;
     transition: all 0.3s ease 0s;
 }
-header:hover{
-        background-color: rgba(39, 39, 39, 1);
+
+header:hover {
+    background-color: rgba(39, 39, 39, 1);
 }
-.shite{
+
+.shite {
     cursor: pointer;
 }
-.nav_bar{
+
+.nav_bar {
     list-style: none;
 }
-.nav_bar li{
+
+.nav_bar li {
     display: inline-block;
     padding: 0px 20px;
 }
-.nav_bar li a{
+
+.nav_bar li a {
     transition: all 0.3s ease 0s;
 }
-.nav_bar li a:hover{
+
+.nav_bar li a:hover {
     color: royalblue;
 }
-button{
+
+button {
     padding: 6px 25px;
     background-color: rgba(102, 102, 102, 0);
     border: solid;
@@ -83,62 +109,85 @@ button{
     cursor: pointer;
     transition: all 0.3 ease 0s;
 }
-button:hover{
+
+button:hover {
     background-color: rgb(88, 133, 158);
 }
-.shite:hover{
+
+.shite:hover {
     color: rgba (46, 167, 250, 0.8)
 }
-.brand{
+
+.brand {
     width: 40px;
     height: 40px;
     border-radius: 100px;
     vertical-align: middle;
 }
-.Image--content{
+
+.Image--content {
     background-color: black;
     display: flex;
     flex: 1;
 }
-.Par{
-margin: 2%;
+
+.Par {
+    margin: 2%;
 }
-.Titlep{
+
+.Titlep {
     background-color: black;
 }
-.cover{
-background-color: black;
+
+.cover {
+    background-color: black;
     max-width: 100%;
-    height:  100vh; 
+    height: 100vh;
     opacity: 0.5;
     display: flex;
     flex: 1;
-
 }
-.read{
+
+.read {
     margin-top: 10%;
 }
-.tittle_cont{
-    margin:auto;
+
+.tittle_cont {
+    margin: auto;
     display: flex;
     align-items: center;
 }
-.Foot_cover{
+
+.Foot_cover {
     background-color: rgb(37, 37, 37);
     padding: 2rem 0;
-    display: flex;
-    flex-direction:column ;
 }
-h6{
+
+.footer_creds {
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 25px;
+}
+
+.container_foot {
+    padding: 10px 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h6 {
     color: white;
     font-family: 'Readex Pro', sans-serif;
     font-size: 15px;
 }
-h2{
+
+h2 {
     color: white;
     font-family: 'Readex Pro', sans-serif;
 }
-#Headline{
+
+#Headline {
     color: rgb(255, 255, 255);
     font-family: 'Readex Pro', sans-serif;
     margin-top: 3%;
@@ -147,20 +196,23 @@ h2{
     line-height: 42px;
     font-weight: 600;
 }
-#author--2{
+
+#author--2 {
     color: rgb(255, 255, 255);
     font-family: 'Readex Pro', sans-serif;
     margin-left: 15%;
 }
-.img_res1{
+
+.img_res1 {
     max-width: 100%;
-     height: 600px;
-     margin-bottom: 0%;
+    height: 600px;
+    margin-bottom: 0%;
     opacity: 0.4;
     display: flex;
     flex: 1;
 }
-.fi{
+
+.fi {
     font-family: 'Readex Pro', sans-serif;
     width: 800px;
     height: 600px;
@@ -169,13 +221,15 @@ h2{
     margin-left: 15%;
     margin-right: 25%
 }
-#DC{
+
+#DC {
     font-family: 'Readex Pro', sans-serif;
     color: white;
     margin-left: 15%;
     margin-right: 25%
 }
-.reference--links{
+
+.reference--links {
     background-color: #3b6480;
     float: Right;
     width: 20%;
@@ -184,7 +238,8 @@ h2{
     margin-right: 15%;
     overflow: hidden;
 }
-.creator__image{
+
+.creator__image {
     width: 300px;
     height: 300px;
     transform: translate(-50%, -50%);
@@ -193,24 +248,26 @@ h2{
     top: 35%;
     left: 50%;
 }
-.Name{
+
+.Name {
     font-family: 'Readex Pro', sans-serif;
     position: absolute;
     color: white;
     position: absolute;
     top: 60%;
     left: 10%;
-
 }
-.backgroundcap{
+
+.backgroundcap {
     background-color: black;
     max-width: auto;
-    height: 100vh;
+    height: 200vh;
     opacity: 0.5;
     display: flex;
     flex: 1;
 }
-#creator__image{
+
+#creator__image {
     background-color: #464646cc;
     width: 400px;
     height: 650px;
@@ -218,12 +275,14 @@ h2{
     top: 15%;
     left: 5%;
 }
-.btn{
+
+.btn {
     position: absolute;
     top: 80%;
     left: 35%;
 }
-.introduction{
+
+.introduction {
     background-color: #464646cc;
     width: 1080px;
     height: 650px;
@@ -232,17 +291,20 @@ h2{
     left: 30%;
     list-style: none;
 }
-p{
+
+p {
     font-family: 'Readex Pro', sans-serif;
     color: white;
 }
-.intro{
+
+.intro {
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 2%;
 }
-#test--2{
+
+#test--2 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Readex Pro', sans-serif;
@@ -253,7 +315,8 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#author--3{
+
+#author--3 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Readex Pro', sans-serif;
@@ -264,4 +327,78 @@ p{
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.info_header {
+    font-size: 30px;
+    padding: 10px 2%;
+}
+
+.info_content {
+    font-size: 20px;
+    padding: 1px 2%;
+}
+
+.Icons {
+    --fa-display: inline-block;
+    font-size: 20px;
+    padding: 10px 2%;
+}
+
+.notes {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 2.5%;
+}
+
+.info_header,
+.info_content,
+.mini_info {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+.username {
+    display: inline-block;
+    padding: -1px 25%;
+    font-size: 20px;
+}
+
+.Certificate_of_Website {
+    width: 90%;
+    height: 70%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 7%;
+    top: 118%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-cert {
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    top: 13%;
+    left: 3%;
+}
+
+.occ {
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+.remark {
+    display: inline-block;
+}
+
+.nav_gap {
+    width: 2px;
+    background: none;
+    height: 10px;
+    display: inline-block;
 }
